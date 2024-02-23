@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "300693187130",
+    "project_id": "eihiopharama-vender",
+    "storage_bucket": "eihiopharama-vender.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300693187130:android:f30a117d9cf14494f6e303",
+        "android_client_info": {
+          "package_name": "com.app.eihiopharama.vendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300693187130-bq1f26a9r9faudst2p6lklqr3nqk02pd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdJSA3FrM4jLPtPt_wNQ4ERUXSf8CYbm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300693187130-bq1f26a9r9faudst2p6lklqr3nqk02pd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "300693187130-jinh2t9d37vpav6qderpd08gflv24473.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.ethiopharma.vendor"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
