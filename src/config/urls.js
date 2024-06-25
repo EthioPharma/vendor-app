@@ -1,4 +1,4 @@
- export const API_BASE_URL = 'https://ethiopharma.rostaging.com/api/v1';
+ export const API_BASE_URL = 'https://ethiopharma.et/api/v1';
 
 
 export const getApiUrl = (endpoint) => API_BASE_URL + endpoint;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12AF1A36CA03E1C72A933EC6 /* libPods-available_pods-Ethiopharma.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5156311287E911186BDC0031 /* libPods-available_pods-Ethiopharma.a */; };
 		84968B2C2A14322A00775F65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		84968B2D2A14322A00775F65 /* Royo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4679626A7F27500D378D5 /* Royo.swift */; };
 		84968B2E2A14322A00775F65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -36,73 +37,18 @@
 		84968B5A2A14328000775F65 /* Ethiopharma(Production).xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 84968B592A14328000775F65 /* Ethiopharma(Production).xcconfig */; };
 		84968B5C2A14328E00775F65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84968B5B2A14328E00775F65 /* Images.xcassets */; };
 		84968B5E2A14339A00775F65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84968B5D2A14339A00775F65 /* GoogleService-Info.plist */; };
-		ADDD2AAE210E38F40BF46F2D /* libPods-available_pods-Ethiopharma.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 565127AAD9DD3050A9018636 /* libPods-available_pods-Ethiopharma.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		000A1E8409E6CBAE198AA00A /* Pods-available_pods-Sabroson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Sabroson.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Sabroson/Pods-available_pods-Sabroson.release.xcconfig"; sourceTree = "<group>"; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RunrunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunrunTests.m; sourceTree = "<group>"; };
-		03937F0C0286FEBDDB2A1BC8 /* Pods-available_pods-PDMarketplace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-PDMarketplace.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-PDMarketplace/Pods-available_pods-PDMarketplace.debug.xcconfig"; sourceTree = "<group>"; };
-		05C1A4C2E7E5B7C90FD91B71 /* Pods-available_pods-Servern.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Servern.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Servern/Pods-available_pods-Servern.debug.xcconfig"; sourceTree = "<group>"; };
-		060A8D62692678F598EC1427 /* libPods-available_pods-HattaFoodHub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-HattaFoodHub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0628FCEE072219F3D6A6A0D6 /* libPods-available_pods-Servern.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Servern.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		06CB702D9DE3C6C7C26375A8 /* Pods-available_pods-Numan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Numan.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Numan/Pods-available_pods-Numan.debug.xcconfig"; sourceTree = "<group>"; };
-		07F6877CD58CC8AF5E9E81AA /* Pods-available_pods-Metropolis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Metropolis.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Metropolis/Pods-available_pods-Metropolis.release.xcconfig"; sourceTree = "<group>"; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Runrun/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Runrun/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Runrun/main.m; sourceTree = "<group>"; };
-		13E772834ED00603B0CC18EB /* libPods-available_pods-Carlitoo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Carlitoo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		153AB854D329929CD2FA6E58 /* Pods-available_pods-HattaFoodHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-HattaFoodHub.release.xcconfig"; path = "Target Support Files/Pods-available_pods-HattaFoodHub/Pods-available_pods-HattaFoodHub.release.xcconfig"; sourceTree = "<group>"; };
-		2260135619DDC8B8F22AC44E /* libPods-available_pods-Doortaq.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Doortaq.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26A04B726AECFD06EE3B9C73 /* libPods-available_pods-Metropolis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Metropolis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E937311057709DEB9EE7932 /* libPods-available_pods-GoMeat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-GoMeat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F4916C131B9544CE9A9B954 /* Pods-available_pods-Voltaic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Voltaic.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Voltaic/Pods-available_pods-Voltaic.debug.xcconfig"; sourceTree = "<group>"; };
-		3430C6C56C2B20FB79F87FCA /* Pods-available_pods-MetroEats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-MetroEats.release.xcconfig"; path = "Target Support Files/Pods-available_pods-MetroEats/Pods-available_pods-MetroEats.release.xcconfig"; sourceTree = "<group>"; };
-		3DB47AA84D4F5F1113248296 /* Pods-available_pods-Look.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Look.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Look/Pods-available_pods-Look.release.xcconfig"; sourceTree = "<group>"; };
-		3E6CEC9848E1EAD12DE807F2 /* Pods-available_pods-Incubit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Incubit.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Incubit/Pods-available_pods-Incubit.release.xcconfig"; sourceTree = "<group>"; };
-		4085BA80D71151652316C310 /* Pods-available_pods-WashValley.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-WashValley.release.xcconfig"; path = "Target Support Files/Pods-available_pods-WashValley/Pods-available_pods-WashValley.release.xcconfig"; sourceTree = "<group>"; };
-		41E59790B2A3754C31D35C00 /* Pods-available_pods-GoMeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-GoMeat.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-GoMeat/Pods-available_pods-GoMeat.debug.xcconfig"; sourceTree = "<group>"; };
-		4390D5C2504FB7EA092483B1 /* Pods-available_pods-QSeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-QSeek.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-QSeek/Pods-available_pods-QSeek.debug.xcconfig"; sourceTree = "<group>"; };
-		43B0A689B6F471F05440C5B2 /* Pods-available_pods-Alhazi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Alhazi.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Alhazi/Pods-available_pods-Alhazi.debug.xcconfig"; sourceTree = "<group>"; };
-		43DBC2FEEBC700DD871D1505 /* Pods-available_pods-Carlitoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Carlitoo.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Carlitoo/Pods-available_pods-Carlitoo.release.xcconfig"; sourceTree = "<group>"; };
-		456A3395F0F6337EBAD184B4 /* Pods-available_pods-PIK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-PIK.release.xcconfig"; path = "Target Support Files/Pods-available_pods-PIK/Pods-available_pods-PIK.release.xcconfig"; sourceTree = "<group>"; };
-		46D2CE4C73B444A6DB162B1C /* libPods-available_pods-GlobalB2B.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-GlobalB2B.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		494AD0B0614B22357956ABBE /* Pods-available_pods-Look.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Look.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Look/Pods-available_pods-Look.debug.xcconfig"; sourceTree = "<group>"; };
-		4A6C1E5FC47B3DD0A630E48B /* Pods-available_pods-Rally.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Rally.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Rally/Pods-available_pods-Rally.release.xcconfig"; sourceTree = "<group>"; };
-		4DA132DC96D2D6475A647CD0 /* Pods-available_pods-Tkaff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Tkaff.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Tkaff/Pods-available_pods-Tkaff.debug.xcconfig"; sourceTree = "<group>"; };
-		4E49673838C7D9F4113892AE /* Pods-available_pods-SetInFashion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-SetInFashion.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-SetInFashion/Pods-available_pods-SetInFashion.debug.xcconfig"; sourceTree = "<group>"; };
-		4F2E8F11192AE214D1572C3A /* Pods-available_pods-Wassi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Wassi.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Wassi/Pods-available_pods-Wassi.debug.xcconfig"; sourceTree = "<group>"; };
-		4F3A4C86948002594B07A008 /* libPods-available_pods-Voltaic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Voltaic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		530302484FB04BF1A30B2C6C /* libPods-available_pods-DomisQuick.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-DomisQuick.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5500A10675F2614DB3496EB3 /* Pods-available_pods-PDMarketplace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-PDMarketplace.release.xcconfig"; path = "Target Support Files/Pods-available_pods-PDMarketplace/Pods-available_pods-PDMarketplace.release.xcconfig"; sourceTree = "<group>"; };
-		565127AAD9DD3050A9018636 /* libPods-available_pods-Ethiopharma.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Ethiopharma.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		58C5452E923990B5DEB17FED /* Pods-available_pods-GlobalB2B.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-GlobalB2B.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-GlobalB2B/Pods-available_pods-GlobalB2B.debug.xcconfig"; sourceTree = "<group>"; };
-		595A8B4F6FF26004D977C431 /* Pods-available_pods-Kaizing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Kaizing.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Kaizing/Pods-available_pods-Kaizing.debug.xcconfig"; sourceTree = "<group>"; };
-		5BB960A9FD1F9230B216B6F5 /* libPods-available_pods-Incubit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Incubit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F6415B39C2D482B8D45D98E /* Pods-available_pods-SetInFashion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-SetInFashion.release.xcconfig"; path = "Target Support Files/Pods-available_pods-SetInFashion/Pods-available_pods-SetInFashion.release.xcconfig"; sourceTree = "<group>"; };
-		605809A7BCAEA32D7914A24C /* Pods-available_pods-Mamara.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Mamara.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Mamara/Pods-available_pods-Mamara.debug.xcconfig"; sourceTree = "<group>"; };
-		61D71479A575256CE4DD67EA /* Pods-available_pods-EasyDrinks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-EasyDrinks.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-EasyDrinks/Pods-available_pods-EasyDrinks.debug.xcconfig"; sourceTree = "<group>"; };
-		63D046CF0D6E85F4046B68C3 /* Pods-available_pods-Amba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Amba.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Amba/Pods-available_pods-Amba.release.xcconfig"; sourceTree = "<group>"; };
-		65A40F578E83582CBF6AAD24 /* libPods-available_pods-QSeek.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-QSeek.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67BDA589BDC50B259A134311 /* libPods-available_pods-Numan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Numan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		687D07BEFA74E93C41EDDF07 /* libPods-available_pods-WashValley.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-WashValley.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B3585938720D5CA0CADAA35 /* Pods-available_pods-Servern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Servern.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Servern/Pods-available_pods-Servern.release.xcconfig"; sourceTree = "<group>"; };
-		6E7CDD2C2DB027F66668123B /* Pods-available_pods-Emart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Emart.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Emart/Pods-available_pods-Emart.debug.xcconfig"; sourceTree = "<group>"; };
-		7042693CC1D79DFB461ADF8C /* libPods-available_pods-Qdelo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Qdelo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71FA98978AAE0F7267B1989D /* Pods-available_pods-LaundryLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-LaundryLink.release.xcconfig"; path = "Target Support Files/Pods-available_pods-LaundryLink/Pods-available_pods-LaundryLink.release.xcconfig"; sourceTree = "<group>"; };
-		72D0DAD1F3DF85EA64C40594 /* Pods-available_pods-LaundryLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-LaundryLink.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-LaundryLink/Pods-available_pods-LaundryLink.debug.xcconfig"; sourceTree = "<group>"; };
-		7574D8010C9910C949BF2C0F /* Pods-available_pods-Incubit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Incubit.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Incubit/Pods-available_pods-Incubit.debug.xcconfig"; sourceTree = "<group>"; };
+		25DF9FEE8551E5C06B5957A6 /* Pods-available_pods-Ethiopharma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Ethiopharma.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Ethiopharma/Pods-available_pods-Ethiopharma.release.xcconfig"; sourceTree = "<group>"; };
+		483F463F979161DA56E5CA87 /* Pods-available_pods-Ethiopharma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Ethiopharma.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Ethiopharma/Pods-available_pods-Ethiopharma.debug.xcconfig"; sourceTree = "<group>"; };
+		5156311287E911186BDC0031 /* libPods-available_pods-Ethiopharma.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Ethiopharma.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76804BEC269C14AB007926EE /* Runrun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Runrun.entitlements; path = Runrun/Runrun.entitlements; sourceTree = "<group>"; };
-		76A5736986D941E58B9BF1D4 /* Pods-available_pods-Zahub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Zahub.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Zahub/Pods-available_pods-Zahub.debug.xcconfig"; sourceTree = "<group>"; };
-		780D1796FAEAF1156E1CD0FE /* Pods-available_pods-FarmerFox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-FarmerFox.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-FarmerFox/Pods-available_pods-FarmerFox.debug.xcconfig"; sourceTree = "<group>"; };
-		79CF27E985590BD3964A6FD8 /* Pods-available_pods-DomisQuick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-DomisQuick.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-DomisQuick/Pods-available_pods-DomisQuick.debug.xcconfig"; sourceTree = "<group>"; };
-		7AFBA278F1A95F44E4E9B3A1 /* Pods-available_pods-Ethiopharma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Ethiopharma.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Ethiopharma/Pods-available_pods-Ethiopharma.debug.xcconfig"; sourceTree = "<group>"; };
-		7B1D04379F6DA126870CB649 /* libPods-available_pods-EasyDrinks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-EasyDrinks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DB4BF2620BA72005D9E1A14 /* libPods-available_pods-Sabroson.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Sabroson.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DD7B2E43D8C709ED0DA1D20 /* Pods-available_pods-ICrafty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-ICrafty.release.xcconfig"; path = "Target Support Files/Pods-available_pods-ICrafty/Pods-available_pods-ICrafty.release.xcconfig"; sourceTree = "<group>"; };
-		7E087571837B1413BFCCDB5C /* Pods-available_pods-Afroikan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Afroikan.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Afroikan/Pods-available_pods-Afroikan.debug.xcconfig"; sourceTree = "<group>"; };
-		810D8B1CB1B5989AD858D592 /* Pods-available_pods-Montra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Montra.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Montra/Pods-available_pods-Montra.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Runrun/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844FDD1C2673989300C16835 /* CircularStd-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.ttf"; sourceTree = "<group>"; };
 		844FDD1D2673989300C16835 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
@@ -139,71 +85,8 @@
 		84F4678E26A7F27400D378D5 /* Runrun-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runrun-Bridging-Header.h"; sourceTree = "<group>"; };
 		84F4678F26A7F27400D378D5 /* RoyoOrder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoyoOrder-Bridging-Header.h"; sourceTree = "<group>"; };
 		84F4679626A7F27500D378D5 /* Royo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Royo.swift; sourceTree = "<group>"; };
-		84FA8FD20F57382751537736 /* Pods-available_pods-CrazyHorse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-CrazyHorse.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-CrazyHorse/Pods-available_pods-CrazyHorse.debug.xcconfig"; sourceTree = "<group>"; };
-		89427A2C0E97E709CCD5A7D0 /* Pods-available_pods-Rally.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Rally.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Rally/Pods-available_pods-Rally.debug.xcconfig"; sourceTree = "<group>"; };
-		8A7D478DEAE6B9BC3FAA4022 /* Pods-available_pods-Tkaff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Tkaff.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Tkaff/Pods-available_pods-Tkaff.release.xcconfig"; sourceTree = "<group>"; };
-		8E78D15ACA144129DBF31258 /* libPods-available_pods-Emart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Emart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FC58F5C915F4853058B062F /* Pods-available_pods-PIK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-PIK.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-PIK/Pods-available_pods-PIK.debug.xcconfig"; sourceTree = "<group>"; };
-		93891D2BD6DE405B05ECF8DC /* libPods-available_pods-SetInFashion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-SetInFashion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		94174DE866BC4AA2705A918D /* libPods-available_pods-Mamara.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Mamara.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		94E7788D18CF9794FD68D196 /* Pods-available_pods-DomisQuick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-DomisQuick.release.xcconfig"; path = "Target Support Files/Pods-available_pods-DomisQuick/Pods-available_pods-DomisQuick.release.xcconfig"; sourceTree = "<group>"; };
-		95EC76DF2E4D8213F8F23F16 /* libPods-available_pods-Amba.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Amba.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		97AA57A15CD8091E3C1B59AC /* Pods-available_pods-CrazyHorse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-CrazyHorse.release.xcconfig"; path = "Target Support Files/Pods-available_pods-CrazyHorse/Pods-available_pods-CrazyHorse.release.xcconfig"; sourceTree = "<group>"; };
-		98049A939EE57BE576220339 /* Pods-available_pods-Carlitoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Carlitoo.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Carlitoo/Pods-available_pods-Carlitoo.debug.xcconfig"; sourceTree = "<group>"; };
-		9A49643172BE23973E18EC90 /* Pods-available_pods-Qdelo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Qdelo.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Qdelo/Pods-available_pods-Qdelo.release.xcconfig"; sourceTree = "<group>"; };
-		A356877CBE6A0D1EDA6AD85D /* Pods-available_pods-Taste5000.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Taste5000.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Taste5000/Pods-available_pods-Taste5000.release.xcconfig"; sourceTree = "<group>"; };
-		A358F02D6B64BBB4942B2D12 /* Pods-available_pods-Afroikan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Afroikan.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Afroikan/Pods-available_pods-Afroikan.release.xcconfig"; sourceTree = "<group>"; };
-		AD37B8D27E5CD08A771A60DD /* Pods-available_pods-Kaizing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Kaizing.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Kaizing/Pods-available_pods-Kaizing.release.xcconfig"; sourceTree = "<group>"; };
-		AE1B4E78B1124A2C93B68BF0 /* libPods-available_pods-Rally.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Rally.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B03C1D2903B4F32544B52E84 /* libPods-available_pods-LaundryLink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-LaundryLink.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B165C40957F30D15F6139F82 /* libPods-available_pods-Taste5000.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Taste5000.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B34931EECC9CFAC063A117B9 /* Pods-available_pods-Numan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Numan.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Numan/Pods-available_pods-Numan.release.xcconfig"; sourceTree = "<group>"; };
-		B5B2AB2E56CB4552D6B4D9E9 /* Pods-available_pods-Metropolis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Metropolis.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Metropolis/Pods-available_pods-Metropolis.debug.xcconfig"; sourceTree = "<group>"; };
-		B8D94BEB88A289B9E5130957 /* libPods-available_pods-CrazyHorse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-CrazyHorse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA320294F261AB7DD1BEE582 /* libPods-available_pods-Alhazi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Alhazi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C01CA5102E3755ADA64CC4B3 /* libPods-available_pods-FarmerFox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-FarmerFox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2C86969561F9C376F8BBD99 /* libPods-available_pods-Wassi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Wassi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2FDF0BE66899C71C40916CE /* Pods-available_pods-HattaFoodHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-HattaFoodHub.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-HattaFoodHub/Pods-available_pods-HattaFoodHub.debug.xcconfig"; sourceTree = "<group>"; };
-		C3385F8F8E10162A61A3C427 /* libPods-available_pods-Kaizing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Kaizing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3D910F6AFC28DCB6F3DA368 /* Pods-available_pods-WashValley.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-WashValley.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-WashValley/Pods-available_pods-WashValley.debug.xcconfig"; sourceTree = "<group>"; };
-		C6D3201F523C537E2BED8716 /* Pods-available_pods-EasyDrinks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-EasyDrinks.release.xcconfig"; path = "Target Support Files/Pods-available_pods-EasyDrinks/Pods-available_pods-EasyDrinks.release.xcconfig"; sourceTree = "<group>"; };
-		CC3496FA0C55D88D59B04CD0 /* libPods-available_pods-PIK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-PIK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF6861EA0508549AE5811A9F /* Pods-available_pods-Iter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Iter.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Iter/Pods-available_pods-Iter.debug.xcconfig"; sourceTree = "<group>"; };
-		D0BE068FDC1B122EFBB22412 /* libPods-available_pods-PDMarketplace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-PDMarketplace.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2AF162344FDDF72F8B389EA /* Pods-available_pods-Wassi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Wassi.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Wassi/Pods-available_pods-Wassi.release.xcconfig"; sourceTree = "<group>"; };
-		D793183F81C6F10AA7DE0C1F /* Pods-available_pods-Doortaq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Doortaq.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Doortaq/Pods-available_pods-Doortaq.release.xcconfig"; sourceTree = "<group>"; };
-		DA7CBFCE7DAC5CEB694C678F /* Pods-available_pods-Taste5000.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Taste5000.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Taste5000/Pods-available_pods-Taste5000.debug.xcconfig"; sourceTree = "<group>"; };
-		DA84AC748C7CC0B10CCABD1D /* Pods-available_pods-Qdelo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Qdelo.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Qdelo/Pods-available_pods-Qdelo.debug.xcconfig"; sourceTree = "<group>"; };
-		DBABFED60559D3738869A64B /* Pods-available_pods-Montra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Montra.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Montra/Pods-available_pods-Montra.release.xcconfig"; sourceTree = "<group>"; };
-		DC73094259D52FAB6719F6C9 /* Pods-available_pods-Voltaic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Voltaic.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Voltaic/Pods-available_pods-Voltaic.release.xcconfig"; sourceTree = "<group>"; };
-		DDB5511799F2B150F1A23DAC /* Pods-available_pods-BiteTrucks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-BiteTrucks.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-BiteTrucks/Pods-available_pods-BiteTrucks.debug.xcconfig"; sourceTree = "<group>"; };
-		E04A30F2B4C2997FDACEC56A /* libPods-available_pods-Iter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Iter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0EAB6DF0A2F8CAC893A1C9E /* libPods-available_pods-Afroikan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Afroikan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E22399209829AFBF28107C39 /* Pods-available_pods-QSeek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-QSeek.release.xcconfig"; path = "Target Support Files/Pods-available_pods-QSeek/Pods-available_pods-QSeek.release.xcconfig"; sourceTree = "<group>"; };
-		E23DABD2484D4CEDBC9F7123 /* libPods-available_pods-MetroEats.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-MetroEats.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E23E291E3947777CD075C120 /* Pods-available_pods-Mamara.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Mamara.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Mamara/Pods-available_pods-Mamara.release.xcconfig"; sourceTree = "<group>"; };
-		E620B16D3DAC8DAD5F799444 /* Pods-available_pods-Emart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Emart.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Emart/Pods-available_pods-Emart.release.xcconfig"; sourceTree = "<group>"; };
-		E76DF7407366904030C6A6B9 /* libPods-available_pods-BiteTrucks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-BiteTrucks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E897DE7D8EEC55E82EF4461B /* libPods-available_pods-Montra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Montra.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8F7546E4FF12BBF14F0600A /* Pods-available_pods-GoMeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-GoMeat.release.xcconfig"; path = "Target Support Files/Pods-available_pods-GoMeat/Pods-available_pods-GoMeat.release.xcconfig"; sourceTree = "<group>"; };
-		EC48EAC2DFC99F365FE2AD04 /* Pods-available_pods-Sabroson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Sabroson.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Sabroson/Pods-available_pods-Sabroson.debug.xcconfig"; sourceTree = "<group>"; };
-		EC9354D14BBE3C24BD72BE22 /* libPods-available_pods-ICrafty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-ICrafty.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC994FEAE089CC7A1D18C996 /* libPods-available_pods-Zahub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Zahub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EE04D1E358979EA3E499AE6B /* Pods-available_pods-MetroEats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-MetroEats.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-MetroEats/Pods-available_pods-MetroEats.debug.xcconfig"; sourceTree = "<group>"; };
-		F0F1292063C58DFAC2E10223 /* libPods-available_pods-Look.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Look.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F189B90174C419722E787E63 /* Pods-available_pods-ICrafty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-ICrafty.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-ICrafty/Pods-available_pods-ICrafty.debug.xcconfig"; sourceTree = "<group>"; };
-		F7007710671EED9733FAFFB0 /* Pods-available_pods-GlobalB2B.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-GlobalB2B.release.xcconfig"; path = "Target Support Files/Pods-available_pods-GlobalB2B/Pods-available_pods-GlobalB2B.release.xcconfig"; sourceTree = "<group>"; };
-		F9CAD6EFD3D75DCFD92C65D4 /* Pods-available_pods-Amba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Amba.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Amba/Pods-available_pods-Amba.debug.xcconfig"; sourceTree = "<group>"; };
-		FA23E4B400F2C4CF6756249D /* Pods-available_pods-Iter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Iter.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Iter/Pods-available_pods-Iter.release.xcconfig"; sourceTree = "<group>"; };
-		FA9F9104DF5F1456FE6C5BFB /* Pods-available_pods-BiteTrucks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-BiteTrucks.release.xcconfig"; path = "Target Support Files/Pods-available_pods-BiteTrucks/Pods-available_pods-BiteTrucks.release.xcconfig"; sourceTree = "<group>"; };
-		FC9CB2D08029279FD56C4811 /* Pods-available_pods-Ethiopharma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Ethiopharma.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Ethiopharma/Pods-available_pods-Ethiopharma.release.xcconfig"; sourceTree = "<group>"; };
-		FCA2210255C801E37281DB6D /* Pods-available_pods-FarmerFox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-FarmerFox.release.xcconfig"; path = "Target Support Files/Pods-available_pods-FarmerFox/Pods-available_pods-FarmerFox.release.xcconfig"; sourceTree = "<group>"; };
-		FD63D99DA2CD03EFDEF5F96D /* Pods-available_pods-Doortaq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Doortaq.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Doortaq/Pods-available_pods-Doortaq.debug.xcconfig"; sourceTree = "<group>"; };
-		FED43DE4F391A236713B7A36 /* libPods-available_pods-Tkaff.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Tkaff.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF17DA259A142C47FA05B8EC /* Pods-available_pods-Zahub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Zahub.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Zahub/Pods-available_pods-Zahub.release.xcconfig"; sourceTree = "<group>"; };
-		FFEEAE175E185BD23AEA4E2A /* Pods-available_pods-Alhazi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Alhazi.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Alhazi/Pods-available_pods-Alhazi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADDD2AAE210E38F40BF46F2D /* libPods-available_pods-Ethiopharma.a in Frameworks */,
+				12AF1A36CA03E1C72A933EC6 /* libPods-available_pods-Ethiopharma.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,86 +137,8 @@
 		293CCC036299F75712B8E1E3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7E087571837B1413BFCCDB5C /* Pods-available_pods-Afroikan.debug.xcconfig */,
-				A358F02D6B64BBB4942B2D12 /* Pods-available_pods-Afroikan.release.xcconfig */,
-				43B0A689B6F471F05440C5B2 /* Pods-available_pods-Alhazi.debug.xcconfig */,
-				FFEEAE175E185BD23AEA4E2A /* Pods-available_pods-Alhazi.release.xcconfig */,
-				F9CAD6EFD3D75DCFD92C65D4 /* Pods-available_pods-Amba.debug.xcconfig */,
-				63D046CF0D6E85F4046B68C3 /* Pods-available_pods-Amba.release.xcconfig */,
-				DDB5511799F2B150F1A23DAC /* Pods-available_pods-BiteTrucks.debug.xcconfig */,
-				FA9F9104DF5F1456FE6C5BFB /* Pods-available_pods-BiteTrucks.release.xcconfig */,
-				98049A939EE57BE576220339 /* Pods-available_pods-Carlitoo.debug.xcconfig */,
-				43DBC2FEEBC700DD871D1505 /* Pods-available_pods-Carlitoo.release.xcconfig */,
-				84FA8FD20F57382751537736 /* Pods-available_pods-CrazyHorse.debug.xcconfig */,
-				97AA57A15CD8091E3C1B59AC /* Pods-available_pods-CrazyHorse.release.xcconfig */,
-				79CF27E985590BD3964A6FD8 /* Pods-available_pods-DomisQuick.debug.xcconfig */,
-				94E7788D18CF9794FD68D196 /* Pods-available_pods-DomisQuick.release.xcconfig */,
-				FD63D99DA2CD03EFDEF5F96D /* Pods-available_pods-Doortaq.debug.xcconfig */,
-				D793183F81C6F10AA7DE0C1F /* Pods-available_pods-Doortaq.release.xcconfig */,
-				61D71479A575256CE4DD67EA /* Pods-available_pods-EasyDrinks.debug.xcconfig */,
-				C6D3201F523C537E2BED8716 /* Pods-available_pods-EasyDrinks.release.xcconfig */,
-				6E7CDD2C2DB027F66668123B /* Pods-available_pods-Emart.debug.xcconfig */,
-				E620B16D3DAC8DAD5F799444 /* Pods-available_pods-Emart.release.xcconfig */,
-				7AFBA278F1A95F44E4E9B3A1 /* Pods-available_pods-Ethiopharma.debug.xcconfig */,
-				FC9CB2D08029279FD56C4811 /* Pods-available_pods-Ethiopharma.release.xcconfig */,
-				780D1796FAEAF1156E1CD0FE /* Pods-available_pods-FarmerFox.debug.xcconfig */,
-				FCA2210255C801E37281DB6D /* Pods-available_pods-FarmerFox.release.xcconfig */,
-				58C5452E923990B5DEB17FED /* Pods-available_pods-GlobalB2B.debug.xcconfig */,
-				F7007710671EED9733FAFFB0 /* Pods-available_pods-GlobalB2B.release.xcconfig */,
-				41E59790B2A3754C31D35C00 /* Pods-available_pods-GoMeat.debug.xcconfig */,
-				E8F7546E4FF12BBF14F0600A /* Pods-available_pods-GoMeat.release.xcconfig */,
-				C2FDF0BE66899C71C40916CE /* Pods-available_pods-HattaFoodHub.debug.xcconfig */,
-				153AB854D329929CD2FA6E58 /* Pods-available_pods-HattaFoodHub.release.xcconfig */,
-				F189B90174C419722E787E63 /* Pods-available_pods-ICrafty.debug.xcconfig */,
-				7DD7B2E43D8C709ED0DA1D20 /* Pods-available_pods-ICrafty.release.xcconfig */,
-				7574D8010C9910C949BF2C0F /* Pods-available_pods-Incubit.debug.xcconfig */,
-				3E6CEC9848E1EAD12DE807F2 /* Pods-available_pods-Incubit.release.xcconfig */,
-				CF6861EA0508549AE5811A9F /* Pods-available_pods-Iter.debug.xcconfig */,
-				FA23E4B400F2C4CF6756249D /* Pods-available_pods-Iter.release.xcconfig */,
-				595A8B4F6FF26004D977C431 /* Pods-available_pods-Kaizing.debug.xcconfig */,
-				AD37B8D27E5CD08A771A60DD /* Pods-available_pods-Kaizing.release.xcconfig */,
-				72D0DAD1F3DF85EA64C40594 /* Pods-available_pods-LaundryLink.debug.xcconfig */,
-				71FA98978AAE0F7267B1989D /* Pods-available_pods-LaundryLink.release.xcconfig */,
-				494AD0B0614B22357956ABBE /* Pods-available_pods-Look.debug.xcconfig */,
-				3DB47AA84D4F5F1113248296 /* Pods-available_pods-Look.release.xcconfig */,
-				605809A7BCAEA32D7914A24C /* Pods-available_pods-Mamara.debug.xcconfig */,
-				E23E291E3947777CD075C120 /* Pods-available_pods-Mamara.release.xcconfig */,
-				EE04D1E358979EA3E499AE6B /* Pods-available_pods-MetroEats.debug.xcconfig */,
-				3430C6C56C2B20FB79F87FCA /* Pods-available_pods-MetroEats.release.xcconfig */,
-				B5B2AB2E56CB4552D6B4D9E9 /* Pods-available_pods-Metropolis.debug.xcconfig */,
-				07F6877CD58CC8AF5E9E81AA /* Pods-available_pods-Metropolis.release.xcconfig */,
-				810D8B1CB1B5989AD858D592 /* Pods-available_pods-Montra.debug.xcconfig */,
-				DBABFED60559D3738869A64B /* Pods-available_pods-Montra.release.xcconfig */,
-				06CB702D9DE3C6C7C26375A8 /* Pods-available_pods-Numan.debug.xcconfig */,
-				B34931EECC9CFAC063A117B9 /* Pods-available_pods-Numan.release.xcconfig */,
-				03937F0C0286FEBDDB2A1BC8 /* Pods-available_pods-PDMarketplace.debug.xcconfig */,
-				5500A10675F2614DB3496EB3 /* Pods-available_pods-PDMarketplace.release.xcconfig */,
-				8FC58F5C915F4853058B062F /* Pods-available_pods-PIK.debug.xcconfig */,
-				456A3395F0F6337EBAD184B4 /* Pods-available_pods-PIK.release.xcconfig */,
-				4390D5C2504FB7EA092483B1 /* Pods-available_pods-QSeek.debug.xcconfig */,
-				E22399209829AFBF28107C39 /* Pods-available_pods-QSeek.release.xcconfig */,
-				DA84AC748C7CC0B10CCABD1D /* Pods-available_pods-Qdelo.debug.xcconfig */,
-				9A49643172BE23973E18EC90 /* Pods-available_pods-Qdelo.release.xcconfig */,
-				89427A2C0E97E709CCD5A7D0 /* Pods-available_pods-Rally.debug.xcconfig */,
-				4A6C1E5FC47B3DD0A630E48B /* Pods-available_pods-Rally.release.xcconfig */,
-				EC48EAC2DFC99F365FE2AD04 /* Pods-available_pods-Sabroson.debug.xcconfig */,
-				000A1E8409E6CBAE198AA00A /* Pods-available_pods-Sabroson.release.xcconfig */,
-				05C1A4C2E7E5B7C90FD91B71 /* Pods-available_pods-Servern.debug.xcconfig */,
-				6B3585938720D5CA0CADAA35 /* Pods-available_pods-Servern.release.xcconfig */,
-				4E49673838C7D9F4113892AE /* Pods-available_pods-SetInFashion.debug.xcconfig */,
-				5F6415B39C2D482B8D45D98E /* Pods-available_pods-SetInFashion.release.xcconfig */,
-				DA7CBFCE7DAC5CEB694C678F /* Pods-available_pods-Taste5000.debug.xcconfig */,
-				A356877CBE6A0D1EDA6AD85D /* Pods-available_pods-Taste5000.release.xcconfig */,
-				4DA132DC96D2D6475A647CD0 /* Pods-available_pods-Tkaff.debug.xcconfig */,
-				8A7D478DEAE6B9BC3FAA4022 /* Pods-available_pods-Tkaff.release.xcconfig */,
-				2F4916C131B9544CE9A9B954 /* Pods-available_pods-Voltaic.debug.xcconfig */,
-				DC73094259D52FAB6719F6C9 /* Pods-available_pods-Voltaic.release.xcconfig */,
-				C3D910F6AFC28DCB6F3DA368 /* Pods-available_pods-WashValley.debug.xcconfig */,
-				4085BA80D71151652316C310 /* Pods-available_pods-WashValley.release.xcconfig */,
-				4F2E8F11192AE214D1572C3A /* Pods-available_pods-Wassi.debug.xcconfig */,
-				D2AF162344FDDF72F8B389EA /* Pods-available_pods-Wassi.release.xcconfig */,
-				76A5736986D941E58B9BF1D4 /* Pods-available_pods-Zahub.debug.xcconfig */,
-				FF17DA259A142C47FA05B8EC /* Pods-available_pods-Zahub.release.xcconfig */,
+				483F463F979161DA56E5CA87 /* Pods-available_pods-Ethiopharma.debug.xcconfig */,
+				25DF9FEE8551E5C06B5957A6 /* Pods-available_pods-Ethiopharma.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -348,46 +153,7 @@
 				84EA41CC26393E950078E919 /* libRNGoogleSignin.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				E0EAB6DF0A2F8CAC893A1C9E /* libPods-available_pods-Afroikan.a */,
-				BA320294F261AB7DD1BEE582 /* libPods-available_pods-Alhazi.a */,
-				95EC76DF2E4D8213F8F23F16 /* libPods-available_pods-Amba.a */,
-				E76DF7407366904030C6A6B9 /* libPods-available_pods-BiteTrucks.a */,
-				13E772834ED00603B0CC18EB /* libPods-available_pods-Carlitoo.a */,
-				B8D94BEB88A289B9E5130957 /* libPods-available_pods-CrazyHorse.a */,
-				530302484FB04BF1A30B2C6C /* libPods-available_pods-DomisQuick.a */,
-				2260135619DDC8B8F22AC44E /* libPods-available_pods-Doortaq.a */,
-				7B1D04379F6DA126870CB649 /* libPods-available_pods-EasyDrinks.a */,
-				8E78D15ACA144129DBF31258 /* libPods-available_pods-Emart.a */,
-				565127AAD9DD3050A9018636 /* libPods-available_pods-Ethiopharma.a */,
-				C01CA5102E3755ADA64CC4B3 /* libPods-available_pods-FarmerFox.a */,
-				46D2CE4C73B444A6DB162B1C /* libPods-available_pods-GlobalB2B.a */,
-				2E937311057709DEB9EE7932 /* libPods-available_pods-GoMeat.a */,
-				060A8D62692678F598EC1427 /* libPods-available_pods-HattaFoodHub.a */,
-				EC9354D14BBE3C24BD72BE22 /* libPods-available_pods-ICrafty.a */,
-				5BB960A9FD1F9230B216B6F5 /* libPods-available_pods-Incubit.a */,
-				E04A30F2B4C2997FDACEC56A /* libPods-available_pods-Iter.a */,
-				C3385F8F8E10162A61A3C427 /* libPods-available_pods-Kaizing.a */,
-				B03C1D2903B4F32544B52E84 /* libPods-available_pods-LaundryLink.a */,
-				F0F1292063C58DFAC2E10223 /* libPods-available_pods-Look.a */,
-				94174DE866BC4AA2705A918D /* libPods-available_pods-Mamara.a */,
-				E23DABD2484D4CEDBC9F7123 /* libPods-available_pods-MetroEats.a */,
-				26A04B726AECFD06EE3B9C73 /* libPods-available_pods-Metropolis.a */,
-				E897DE7D8EEC55E82EF4461B /* libPods-available_pods-Montra.a */,
-				67BDA589BDC50B259A134311 /* libPods-available_pods-Numan.a */,
-				D0BE068FDC1B122EFBB22412 /* libPods-available_pods-PDMarketplace.a */,
-				CC3496FA0C55D88D59B04CD0 /* libPods-available_pods-PIK.a */,
-				65A40F578E83582CBF6AAD24 /* libPods-available_pods-QSeek.a */,
-				7042693CC1D79DFB461ADF8C /* libPods-available_pods-Qdelo.a */,
-				AE1B4E78B1124A2C93B68BF0 /* libPods-available_pods-Rally.a */,
-				7DB4BF2620BA72005D9E1A14 /* libPods-available_pods-Sabroson.a */,
-				0628FCEE072219F3D6A6A0D6 /* libPods-available_pods-Servern.a */,
-				93891D2BD6DE405B05ECF8DC /* libPods-available_pods-SetInFashion.a */,
-				B165C40957F30D15F6139F82 /* libPods-available_pods-Taste5000.a */,
-				FED43DE4F391A236713B7A36 /* libPods-available_pods-Tkaff.a */,
-				4F3A4C86948002594B07A008 /* libPods-available_pods-Voltaic.a */,
-				687D07BEFA74E93C41EDDF07 /* libPods-available_pods-WashValley.a */,
-				C2C86969561F9C376F8BBD99 /* libPods-available_pods-Wassi.a */,
-				EC994FEAE089CC7A1D18C996 /* libPods-available_pods-Zahub.a */,
+				5156311287E911186BDC0031 /* libPods-available_pods-Ethiopharma.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -502,15 +268,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84968B512A14322A00775F65 /* Build configuration list for PBXNativeTarget "Ethiopharma" */;
 			buildPhases = (
-				79309A441C8B68F7AE889E24 /* [CP] Check Pods Manifest.lock */,
+				638C153FCE4F80BE9A47126F /* [CP] Check Pods Manifest.lock */,
 				84968B2B2A14322A00775F65 /* Sources */,
 				84968B2F2A14322A00775F65 /* Frameworks */,
 				84968B312A14322A00775F65 /* Resources */,
 				84968B4C2A14322A00775F65 /* Bundle React Native code and images */,
 				84968B4D2A14322A00775F65 /* Start Packager */,
 				84968B4E2A14322A00775F65 /* ShellScript */,
-				F644B1BEE1C61C3A98324678 /* [CP] Embed Pods Frameworks */,
-				5115D60415936539A62D3F48 /* [CP] Copy Pods Resources */,
+				7C271D3F969BDC2211356306 /* [CP] Embed Pods Frameworks */,
+				5797C6C0A7A54FA9FAF83546 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -590,17 +356,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5115D60415936539A62D3F48 /* [CP] Copy Pods Resources */ = {
+		5797C6C0A7A54FA9FAF83546 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Ethiopharma/Pods-available_pods-Ethiopharma-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth/AppAuthCore_Privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport_Privacy.bundle",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities_Privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises_Privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage/RNCAsyncStorage_resources.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
@@ -628,10 +399,15 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppAuthCore_Privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleDataTransport_Privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleUtilities_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FBLPromises_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RNCAsyncStorage_resources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
@@ -662,7 +438,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-Ethiopharma/Pods-available_pods-Ethiopharma-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		79309A441C8B68F7AE889E24 /* [CP] Check Pods Manifest.lock */ = {
+		638C153FCE4F80BE9A47126F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -682,6 +458,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C271D3F969BDC2211356306 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Ethiopharma/Pods-available_pods-Ethiopharma-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskChatProvidersSDK/ChatProvidersSDK.framework/ChatProvidersSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskChatSDK/ChatSDK.framework/ChatSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskCommonUISDK/CommonUISDK.framework/CommonUISDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskMessagingAPISDK/MessagingAPI.framework/MessagingAPI",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskMessagingSDK/MessagingSDK.framework/MessagingSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKConfigurationsSDK/SDKConfigurations.framework/SDKConfigurations",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/razorpay-pod/Razorpay.framework/Razorpay",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChatProvidersSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChatSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CommonUISDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessagingAPI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessagingSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDKConfigurations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Razorpay.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-Ethiopharma/Pods-available_pods-Ethiopharma-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		84968B4C2A14322A00775F65 /* Bundle React Native code and images */ = {
@@ -734,36 +540,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-Ethiopharma/Pods-available_pods-Ethiopharma-frameworks.sh\"\n";
-		};
-		F644B1BEE1C61C3A98324678 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Ethiopharma/Pods-available_pods-Ethiopharma-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskChatProvidersSDK/ChatProvidersSDK.framework/ChatProvidersSDK",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskChatSDK/ChatSDK.framework/ChatSDK",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskCommonUISDK/CommonUISDK.framework/CommonUISDK",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskMessagingAPISDK/MessagingAPI.framework/MessagingAPI",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskMessagingSDK/MessagingSDK.framework/MessagingSDK",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKConfigurationsSDK/SDKConfigurations.framework/SDKConfigurations",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/razorpay-pod/Razorpay.framework/Razorpay",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChatProvidersSDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChatSDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CommonUISDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessagingAPI.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessagingSDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDKConfigurations.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Razorpay.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-Ethiopharma/Pods-available_pods-Ethiopharma-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -931,11 +707,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Ethiopharma.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(PROJECT_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 6FXUMT5X23;
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6FXUMT5X23;
 				INFOPLIST_FILE = "Runrun/Plists/$(PROJECT_PLIST).plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -951,8 +726,7 @@
 				PROJECT_DEEPLINK = "${PROJECT_DEEPLINK}";
 				PROJECT_ENTITLEMENT = "";
 				PROJECT_PLIST = "$(PROJECT_PLIST)";
-				PROVISIONING_PROFILE_SPECIFIER = "Ethiopharma Vendor";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Ethiopharma Vendor";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "RoyoOrder-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";

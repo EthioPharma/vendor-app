@@ -123,9 +123,12 @@ def enableHermes = project.ext.react.get("enableHermes", false);
 
 android {
     ndkVersion rootProject.ext.ndkVersion
-        compileSdkVersion rootProject.ext.compileSdkVersion
-         packagingOptions {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    packagingOptions {
         pickFirst '**/*.so'
+        exclude 'META-INF/core_release.kotlin_module'
+
     }
     dexOptions {
         javaMaxHeapSize "4g"
