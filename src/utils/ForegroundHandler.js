@@ -116,7 +116,10 @@ console.log(displayNotificationData,"displayNotificationDatadisplayNotificationD
         notification.android.sound == 'notification' &&
         data.type != 'reached_location'
       ) {
-        actions.isVendorNotification(true);
+        setTimeout(()=>{
+          actions.updateVendorNotification(true);
+          actions.isVendorNotification(true);
+        },3000)
         actions.refreshNotification(messageId);
         const { data } = remoteMessage.data;
         let _data = JSON.parse(data);
@@ -139,7 +142,10 @@ console.log(displayNotificationData,"displayNotificationDatadisplayNotificationD
       // }
 
       if (Platform.OS == 'ios' && notification.sound == 'notification.wav' && data.type != 'reached_location') {
-        actions.isVendorNotification(true);
+        setTimeout(()=>{
+          actions.updateVendorNotification(true);
+          actions.isVendorNotification(true);
+        },4000)
         actions.refreshNotification(messageId);
       }
     });

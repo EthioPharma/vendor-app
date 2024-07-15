@@ -1,7 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import messaging from '@react-native-firebase/messaging';
 import { PermissionsAndroid, Platform } from 'react-native';
-
 import navigationStrings from '../navigation/navigationStrings';
 import actions from '../redux/actions';
 import { getItem } from './utils';
@@ -10,11 +9,10 @@ import { redirectFromNotification } from './helperFunctions';
 import * as NavigationService from '../navigation/NavigationService';
 
 export async function requestUserPermission(callback = () => { }) {
-
   if (Platform.OS === 'ios') {
     await messaging().registerDeviceForRemoteMessages();
   }
-  if (Platform.Version >= 33) {
+  if (Platform.Version >= 33){
     try {
       const granted = await PermissionsAndroid.request(
         PERMISSIONS.ANDROID.POST_NOTIFICATIONS,
@@ -25,16 +23,16 @@ export async function requestUserPermission(callback = () => { }) {
           buttonNegative: 'Cancel',
           buttonPositive: 'OK',
         },
-        console.log(granted,"granted")
+        console.log(granted, "granted")
       );
-      if (granted === PermissionsAndroid.RESULTS.GRANTED) {
+      if (granted === PermissionsAndroid.RESULTS.GRANTED){
         console.log("here in enabled1")
         getFcmToken();
         callback(false);
       } else {
         callback(true)
       }
-    } catch (err) {
+    } catch (err){
       console.warn(err);
     }
 
@@ -44,7 +42,7 @@ export async function requestUserPermission(callback = () => { }) {
       authStatus === messaging.AuthorizationStatus.AUTHORIZED ||
       authStatus === messaging.AuthorizationStatus.PROVISIONAL;
     if (enabled) {
-      
+
       getFcmToken();
       callback(false);
     } else callback(true);
@@ -69,7 +67,7 @@ const getFcmToken = async () => {
       console.log(error, 'error in fcmToken');
       // showError(error.message)
     }
-  }
+  } 
 };
 
 const _getOrderDetail = async (id) => {
@@ -241,21 +239,21 @@ export const notificationListener = async () => {
     if (!!remoteMessage?.data && remoteMessage?.data?.redirect_type == "2") {
       if (remoteMessage?.data?.redirect_type_value == 'Subcategory') {
         setTimeout(() => {
-          NavigationService.navigate(navigationStrings.VENDOR_DETAIL, {data: remoteMessage?.data?.redirect_data, fromNotification: true})
-       
+          NavigationService.navigate(navigationStrings.VENDOR_DETAIL, { data: remoteMessage?.data?.redirect_data, fromNotification: true })
+
         }, 1200);
       }
       else if (remoteMessage?.data?.redirect_type_value == 'Product') {
         setTimeout(() => {
           NavigationService.navigate(navigationStrings.PRODUCT_LIST,
-          {data: remoteMessage?.data?.redirect_data,}
-        )
-        
+            { data: remoteMessage?.data?.redirect_data, }
+          )
+
         }, 1200);
       }
       else if (remoteMessage?.data?.redirect_type_value == 'Vendor') {
         setTimeout(() => {
-          NavigationService.navigate(navigationStrings.VENDOR,{data: remoteMessage?.data?.redirect_data,},)
+          NavigationService.navigate(navigationStrings.VENDOR, { data: remoteMessage?.data?.redirect_data, },)
         }, 1200);
       }
     }
@@ -263,15 +261,20 @@ export const notificationListener = async () => {
     else if (!!remoteMessage?.data && remoteMessage?.data?.redirect_type == "3") {
 
       setTimeout(() => {
-        NavigationService.navigate( navigationStrings.PRODUCT_LIST,
-        {
-              data: remoteMessage?.data?.redirect_data, fromNotification: true,
-            },
-          )
-     
+        NavigationService.navigate(navigationStrings.PRODUCT_LIST,
+          {
+            data: remoteMessage?.data?.redirect_data, fromNotification: true,
+          },
+        )
+
       }, 1200);
 
     }
+
+    // setTimeout(() => {
+      actions.updateVendorNotification(true);
+      actions.isVendorNotification(true);
+    // }, 3000)
     // if (
     //   notification?.sound == 'notification.mp3' ||
     //   notification?.android?.sound == 'notification'
@@ -325,7 +328,7 @@ export const notificationListener = async () => {
                   },
                 },
               })
-             
+
             }, 1200);
           }
           else if (remoteMessage?.data?.redirect_type_value == 'Product') {
@@ -339,7 +342,7 @@ export const notificationListener = async () => {
                   },
                 },
               })
-          
+
             }, 1200);
           }
           else if (remoteMessage?.data?.redirect_type_value == 'Vendor') {
@@ -353,7 +356,7 @@ export const notificationListener = async () => {
                   },
                 },
               })
-            
+
             }, 1200);
           }
         }
@@ -370,7 +373,7 @@ export const notificationListener = async () => {
                 },
               },
             })
-           
+
           }, 1200);
 
         }
@@ -417,10 +420,16 @@ const _openApp = () => {
       Platform.OS == 'android' &&
       notification.android.sound == 'notification' && data.type != 'reached_location'
     ) {
-      actions.isVendorNotification(true);
+      // setTimeout(() => {
+      //   actions.updateVendorNotification(true);
+        actions.isVendorNotification(true);
+      // }, 3000)
     }
     if (Platform.OS == 'ios' && notification.sound == 'notification.wav') {
-      actions.isVendorNotification(true);
+      // setTimeout(() => {
+      //   actions.updateVendorNotification(true);
+        actions.isVendorNotification(true);
+      // }, 3000)
     }
   });
   console.log('i am here>>>>>');

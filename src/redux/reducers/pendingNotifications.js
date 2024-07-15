@@ -21,6 +21,13 @@ export default function (state = initial_state, action) {
                 isVendorNotification: data,
             };
         }
+        case types.UPDATE_VENDOR_NOTIFICATION: {
+            const data = action.payload;
+            return {
+                ...state,
+                updateNotification: data,
+            };
+        }
         default: {
             return { ...state };
         }

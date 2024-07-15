@@ -19,7 +19,10 @@ messaging().setBackgroundMessageHandler(async (remoteMessage) => {
     if (_data.vendors[0].vendor.auto_accept_order == 1) {
       StartPrinting(_data);
     } else {
-      actions.isVendorNotification(true);ß
+      setTimeout(()=>{
+        actions.updateVendorNotification(true);
+        actions.isVendorNotification(true);
+      },2000)
     }
   }
 });
@@ -34,7 +37,10 @@ messaging().getInitialNotification(async (remoteMessage) => {
     if (_data.vendors[0].vendor.auto_accept_order == 1) {
       StartPrinting(_data);
     } else {
-      actions.isVendorNotification(true);
+      setTimeout(()=>{
+        actions.updateVendorNotification(true);
+        actions.isVendorNotification(true);
+      },4000)
     }
   }
 });
