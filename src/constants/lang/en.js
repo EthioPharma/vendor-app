@@ -892,4 +892,5 @@ Amount`,
   LIFETIME: 'Lifetime',
   ORDER_TOTAL: 'Order Total',
   CATEGORIES: 'Categories',
+  PRESCRIPTION_IMAGE:"Prescription Image"
 };

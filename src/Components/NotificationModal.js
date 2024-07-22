@@ -64,7 +64,7 @@ const NotificationModal = () => {
   const getAllPendingOrder = async () => {
     try {
       const res = await actions.allPendingOrders(
-        `?limit=${50}&page=${1}`,
+        `?limit=${1}&page=${1}`,
         {},
         {
           code: appData?.profile?.code,
@@ -234,6 +234,7 @@ const NotificationModal = () => {
             <View style={{ marginBottom: moderateScaleVertical(12) }} />
           )}
         />
+        {/* {renderItem(pendingNotifications[0])} */}
       </View>
     </Modal>
     </>

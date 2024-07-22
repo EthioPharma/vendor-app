@@ -1,5 +1,5 @@
 import moment from 'moment';
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import * as MyShare from 'react-native-share';
 import {
   View,
@@ -11,8 +11,9 @@ import {
   Share,
   FlatList,
   Linking,
+  Dimensions,
 } from 'react-native';
-import {useSelector} from 'react-redux';
+import { useSelector } from 'react-redux';
 import ButtonWithLoader from '../../../Components/ButtonWithLoader';
 import Header from '../../../Components/Header';
 import WrapperContainer from '../../../Components/WrapperContainer';
@@ -24,21 +25,22 @@ import {
   moderateScale,
   moderateScaleVertical,
   textScale,
+  verticalScale,
   width,
 } from '../../../styles/responsiveSize';
-import {customMarginBottom} from '../../../utils/constants/constants';
-import {getImageUrl, showError} from '../../../utils/helperFunctions';
-import {dialCall} from '../../../utils/openNativeApp';
-import {loaderOne} from '../../../Components/Loaders/AnimatedLoaderFiles';
-import {isEmpty} from 'lodash';
+import { customMarginBottom } from '../../../utils/constants/constants';
+import { getImageUrl, showError } from '../../../utils/helperFunctions';
+import { dialCall } from '../../../utils/openNativeApp';
+import { loaderOne } from '../../../Components/Loaders/AnimatedLoaderFiles';
+import { isEmpty } from 'lodash';
 import FastImage from 'react-native-fast-image';
 import strings from '../../../constants/lang';
 import navigationStrings from '../../../navigation/navigationStrings';
 
 const RoyoOrderDetail = (props) => {
-  const {navigation} = props;
-  const {data, selectedVendor,index} = props.route.params;
-  const {appData, appStyle, currencies, languages} = useSelector(
+  const { navigation } = props;
+  const { data, selectedVendor, index } = props.route.params;
+  const { appData, appStyle, currencies, languages } = useSelector(
     (state) => state?.initBoot,
   );
   const [state, setState] = useState({
@@ -89,7 +91,7 @@ const RoyoOrderDetail = (props) => {
       collectedData['vendor_id'] = selectedVendor?.id;
     }
     console.log(data, '=====res');
-    updateState({isLoadingB: true});
+    updateState({ isLoadingB: true });
     actions
       .getOrderDetail(collectedData, {
         code: appData?.profile?.code,
@@ -98,7 +100,7 @@ const RoyoOrderDetail = (props) => {
       })
       .then((res) => {
         console.log(res.data, '=====res');
-        updateState({isLoadingB: false});
+        updateState({ isLoadingB: false });
         if (res?.data) {
           updateState({
             address: res.data.address,
@@ -124,7 +126,7 @@ const RoyoOrderDetail = (props) => {
     data['order_id'] = acceptRejectData?.id;
     data['vendor_id'] = selectedVendor?.id;
     data['order_status_option_id'] = status;
-    updateState({isLoadingB: true});
+    updateState({ isLoadingB: true });
     actions
       .updateOrderStatus(data, {
         code: appData?.profile?.code,
@@ -152,7 +154,7 @@ const RoyoOrderDetail = (props) => {
       });
   };
 
-  const updateState = (data) => setState((state) => ({...state, ...data}));
+  const updateState = (data) => setState((state) => ({ ...state, ...data }));
   const toggleUpcomingStatus = () => {
     updateState({
       showUpcomingStatus: !showUpcomingStatus,
@@ -161,12 +163,12 @@ const RoyoOrderDetail = (props) => {
 
   const renderUserDetails = (item, index) => {
     return (
-      <View style={{marginTop: moderateScaleVertical(15)}}>
-        <Text style={{fontFamily: fontFamily.bold, fontSize: textScale(13)}}>
+      <View style={{ marginTop: moderateScaleVertical(15) }}>
+        <Text style={{ fontFamily: fontFamily.bold, fontSize: textScale(13) }}>
           {'• '}
           {item?.primary?.name}
         </Text>
-        <View style={{marginHorizontal: moderateScale(5), marginTop: 5}}>
+        <View style={{ marginHorizontal: moderateScale(5), marginTop: 5 }}>
           {item?.file_type == 'Text' ? (
             <Text>{item?.user_document?.file_name}</Text>
           ) : item?.file_type == 'Image' ? (
@@ -178,7 +180,7 @@ const RoyoOrderDetail = (props) => {
                   '500/500',
                 ),
               }}
-              style={{height: 70, width: 70}}
+              style={{ height: 70, width: 70 }}
             />
           ) : (
             <TouchableOpacity
@@ -199,9 +201,9 @@ const RoyoOrderDetail = (props) => {
     );
   };
 
-  const backPress = ()=>{
-   
-    navigation.navigate(navigationStrings?.VENDOR_ORDER,{index:index});
+  const backPress = () => {
+
+    navigation.navigate(navigationStrings?.VENDOR_ORDER, { index: index });
   }
 
   return (
@@ -212,7 +214,7 @@ const RoyoOrderDetail = (props) => {
       barStyle="dark-content"
       source={loaderOne}>
       <Header
-        headerStyle={{marginVertical: moderateScaleVertical(16)}}
+        headerStyle={{ marginVertical: moderateScaleVertical(16) }}
         leftIcon={imagePath.backRoyo}
         centerTitle={`Order #${data.order_number}`}
         onPressLeft={backPress}
@@ -228,7 +230,7 @@ const RoyoOrderDetail = (props) => {
           <View>
             <Text style={styles.jobStatus}>{strings.JOB_STATUS}</Text>
             <View style={styles.preparingBox}>
-              <Text style={{...styles.font16Semibold, color: colors.white}}>
+              <Text style={{ ...styles.font16Semibold, color: colors.white }}>
                 {current_status?.title}
               </Text>
               <TouchableOpacity
@@ -242,19 +244,19 @@ const RoyoOrderDetail = (props) => {
                 activeOpacity={1}
                 style={styles.upcomingStatus}
                 onPress={() => updateOrderStatus(data, upcoming_status?.id)}>
-                <Text style={{...styles.font16Semibold, color: colors.white}}>
+                <Text style={{ ...styles.font16Semibold, color: colors.white }}>
                   {upcoming_status?.title}
                 </Text>
 
                 <Image
-                  style={{tintColor: colors.white}}
+                  style={{ tintColor: colors.white }}
                   source={imagePath.selectedRoyo}
                 />
               </TouchableOpacity>
             ) : null}
           </View>
         ) : null}
-        <View style={{...styles.orderNumberBox, zIndex: -1}}>
+        <View style={{ ...styles.orderNumberBox, zIndex: -1 }}>
           {/* <Text style={styles.orderNumber}>Order #{data.order_number}</Text> */}
           <Text style={styles.orderNumber}>{strings.ORDERAT}:</Text>
           {/* <Text style={styles.orderTime}>{`${moment(data?.date_time).format(
@@ -273,7 +275,7 @@ const RoyoOrderDetail = (props) => {
               : []
           }
           keyExtractor={(val, index) => index}
-          renderItem={({item, index}) => {
+          renderItem={({ item, index }) => {
             return (
               <View style={styles.itemBox}>
                 <Image
@@ -286,7 +288,7 @@ const RoyoOrderDetail = (props) => {
                     ),
                   }}
                 />
-                <View style={{flex: 1, justifyContent: 'space-around'}}>
+                <View style={{ flex: 1, justifyContent: 'space-around' }}>
                   <Text style={styles.font16Medium}>
                     {item?.translation?.title}
                   </Text>
@@ -310,16 +312,30 @@ const RoyoOrderDetail = (props) => {
           contentContainerStyle={styles.orderBox}
           ItemSeparatorComponent={() => <View style={styles.itemSeperator} />}
         />
-
-        <View style={{margin: moderateScaleVertical(16)}}>
-          <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
+        {console.log(data, "sdkshdksd")}
+        {/* prescription Image */}
+        <View style={{marginHorizontal:moderateScale(11),overflow:"hidden"}}>
+        {data?.prescription[0] && 
+        <Text style={{...styles.font15Medium,textAlign:"center",marginBottom:verticalScale(2)}}>{strings?.PRESCRIPTION_IMAGE}</Text>}
+        {data?.prescription[0] && <Image
+          style={styles.image}
+          source={{
+            uri: getImageUrl(
+              data?.prescription[0]?.prescription?.image_fit,
+              data?.prescription[0]?.prescription?.image_path,
+              '800/800',
+            )
+          }} />}
+         </View> 
+        <View style={{ margin: moderateScaleVertical(16) }}>
+          <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
             <Text style={styles.font15Medium}>{strings.SUBTOTAL}</Text>
             <Text style={styles.font15Semibold}>
               {currencies?.primary_currency?.symbol}{' '}
               {Number(data.payable_amount).toFixed(2)}
             </Text>
           </View>
-        
+
           {/* <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
             <Text style={styles.font15Medium}>{strings.DELIVERYFEE}</Text>
             <Text style={styles.font15Semibold}>
@@ -328,11 +344,11 @@ const RoyoOrderDetail = (props) => {
             </Text>
           </View> */}
           <View style={styles.dashLine} />
-          <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
+          <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
             <Text style={styles.font15Medium}>{strings.TOTAL}</Text>
-            <Text style={{...styles.font15Semibold, color: colors.themeColor2}}>
+            <Text style={{ ...styles.font15Semibold, color: colors.themeColor2 }}>
               {`${currencies?.primary_currency?.symbol} ${Number(
-                parseFloat(data.payable_amount) 
+                parseFloat(data.payable_amount)
               ).toFixed(2)}`}
             </Text>
           </View>
@@ -346,7 +362,7 @@ const RoyoOrderDetail = (props) => {
             <Text style={styles.font14Semibold}>
               {strings.DELIEVERY_ADDRESS}
             </Text>
-            <View style={{flexDirection: 'row'}}>
+            <View style={{ flexDirection: 'row' }}>
               <TouchableOpacity onPress={() => dialCall(1234567890)}>
                 <Image source={imagePath.callRoyo} />
               </TouchableOpacity>
@@ -379,8 +395,8 @@ const RoyoOrderDetail = (props) => {
 
           <View style={styles.locationBox}>
             <Image style={styles.locationImage} source={imagePath.icMap} />
-            <View style={{justifyContent: 'space-evenly'}}>
-              <Text style={{fontFamily: fontFamily.semiBold, fontSize: 16}}>
+            <View style={{ justifyContent: 'space-evenly' }}>
+              <Text style={{ fontFamily: fontFamily.semiBold, fontSize: 16 }}>
                 {data.user_name}
               </Text>
               <Text
@@ -395,16 +411,16 @@ const RoyoOrderDetail = (props) => {
               </Text>
             </View>
           </View>
-          <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
-            <Text style={{...styles.font14Semibold}}>
+          <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+            <Text style={{ ...styles.font14Semibold }}>
               {strings.PAYMENT_METHOD}
             </Text>
-            <Text style={{...styles.font14Semibold, color: colors.black}}>
+            <Text style={{ ...styles.font14Semibold, color: colors.black }}>
               {data.payment_option_title}
             </Text>
           </View>
         </View>
-        <View style={{marginHorizontal: moderateScale(20)}}>
+        <View style={{ marginHorizontal: moderateScale(20) }}>
           {!isEmpty(userDocumentList) &&
             userDocumentList.map(renderUserDetails)}
         </View>
@@ -418,7 +434,7 @@ const RoyoOrderDetail = (props) => {
             />
             <ButtonWithLoader
               btnText={strings.CONFIRM}
-              btnTextStyle={{...styles.btnText, color: colors.white}}
+              btnTextStyle={{ ...styles.btnText, color: colors.white }}
               btnStyle={{
                 ...styles.btnContainer,
                 backgroundColor: colors.themeColor2,
@@ -595,4 +611,9 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
   },
+  image: {
+    width: Dimensions.get('window').width,
+    height: verticalScale(400),
+    resizeMode:"stretch",
+  }
 });
