@@ -28,7 +28,7 @@ class CustomAnimatedLoader extends React.PureComponent {
     overlayColor: PropTypes.string,
     animationType: PropTypes.oneOf(['none', 'slide', 'fade']),
     source: PropTypes.object,
-    animationStyle: ViewPropTypes.style,
+    animationStyle: ViewPropTypes?.style,
     speed: PropTypes.number,
     loop: PropTypes.bool,
     colorFilters: PropTypes.array,

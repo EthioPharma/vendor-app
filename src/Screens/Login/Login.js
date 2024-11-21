@@ -187,6 +187,8 @@ export default function Login({navigation}) {
       })
       .then((res) => {
         console.log(res,"resLoginnnnnnn")
+        updateState({isLoading: false});
+
         if (!!res.data) {
           if (!!res?.data?.is_phone) {
             navigation.navigate(navigationStrings.OTP_VERIFICATION, {
@@ -205,7 +207,6 @@ export default function Login({navigation}) {
           // checkIsAdmin(navigation_, navigation, res.data);
           
         }
-        updateState({isLoading: false});
         // getCartDetail();
       })
       .catch(errorMethod);

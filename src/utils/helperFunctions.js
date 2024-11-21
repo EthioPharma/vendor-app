@@ -54,6 +54,15 @@ const getCurrentLocation = (type) =>
     );
   });
 
+  export const isSunmiPrinterConnected = async () => {
+    try {
+      const connectedDevices = await SunmiPrinter.hasPrinter(); // Assuming this method exists
+      return connectedDevices;
+    } catch (error) {
+      console.error('Error checking Sunmi printer connection:', error);
+      return false; 
+    }
+  };
 const getLocation = async (lat, lng, type) => {
   if (type == 'home') {
     try {
