@@ -1,40 +1,100 @@
 {
   "project_info": {
-    "project_number": "300693187130",
-    "project_id": "eihiopharama-vender",
-    "storage_bucket": "eihiopharama-vender.appspot.com"
+    "project_number": "352612326280",
+    "project_id": "ethiopharma-order",
+    "storage_bucket": "ethiopharma-order.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:300693187130:android:f30a117d9cf14494f6e303",
+        "mobilesdk_app_id": "1:352612326280:android:269dc61e0cde353a72f83d",
         "android_client_info": {
           "package_name": "com.app.eihiopharama.vendor"
         }
       },
       "oauth_client": [
         {
-          "client_id": "300693187130-bq1f26a9r9faudst2p6lklqr3nqk02pd.apps.googleusercontent.com",
+          "client_id": "352612326280-9498qia3bh4869ot290eu6ohvt5bv3t2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAdJSA3FrM4jLPtPt_wNQ4ERUXSf8CYbm4"
+          "current_key": "AIzaSyDCyvyFjSVsQ4xEpYpfFMhUtAOsugKXlc8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "300693187130-bq1f26a9r9faudst2p6lklqr3nqk02pd.apps.googleusercontent.com",
+              "client_id": "352612326280-9498qia3bh4869ot290eu6ohvt5bv3t2.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "300693187130-jinh2t9d37vpav6qderpd08gflv24473.apps.googleusercontent.com",
+              "client_id": "352612326280-3c3akg5mutmfei832lga2ga3rb1mmh3j.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.app.ethiopharma.vendor"
+                "bundle_id": "com.ethiopharma.royoorder"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352612326280:android:55de7eece2ffcede72f83d",
+        "android_client_info": {
+          "package_name": "com.ethiopharma.royoorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352612326280-epld2vot0j6ej457520lou5btle1nasu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ethiopharma.royoorder",
+            "certificate_hash": "6e35fcb20bda370ed0025e8c1df6109a03d09b6e"
+          }
+        },
+        {
+          "client_id": "352612326280-ksqv8odu067b7rb2tvkahb3giuvv0acn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ethiopharma.royoorder",
+            "certificate_hash": "a88b766ebe08c535516406fab3741781973c03ad"
+          }
+        },
+        {
+          "client_id": "352612326280-m71vd4jdl61f3h548i3jumc5u40m32fe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ethiopharma.royoorder",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "352612326280-9498qia3bh4869ot290eu6ohvt5bv3t2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCyvyFjSVsQ4xEpYpfFMhUtAOsugKXlc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352612326280-9498qia3bh4869ot290eu6ohvt5bv3t2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "352612326280-3c3akg5mutmfei832lga2ga3rb1mmh3j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ethiopharma.royoorder"
               }
             }
           ]
